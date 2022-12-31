@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_sub_component_count_components",
+  "info": {
+    "displayName": "countComponent",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "countNumber": {
+      "type": "string",
+      "required": true
+    },
+    "countText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

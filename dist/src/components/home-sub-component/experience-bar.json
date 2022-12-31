@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_home_sub_component_experience_bars",
+    "info": {
+        "displayName": "experienceBar",
+        "icon": "align-center"
+    },
+    "options": {},
+    "attributes": {
+        "language": {
+            "type": "string",
+            "required": true
+        },
+        "experienceLevel": {
+            "type": "integer",
+            "max": 5,
+            "min": 0
+        }
+    }
+}
