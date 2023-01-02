@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "contactCard": {
+    "contactCards": {
       "displayName": "ContactCard",
       "type": "component",
       "repeatable": true,

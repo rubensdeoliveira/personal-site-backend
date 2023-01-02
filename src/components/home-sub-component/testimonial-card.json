@@ -2,29 +2,22 @@
   "collectionName": "components_home_sub_component_testimonial_cards",
   "info": {
     "displayName": "testimonialCard",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "quoteImage": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
-    },
     "description": {
       "type": "text",
       "required": true
     },
     "photo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "name": {
       "type": "string",

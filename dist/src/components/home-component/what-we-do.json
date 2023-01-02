@@ -14,7 +14,7 @@
             "component": "home-sub-component.section-header",
             "required": true
         },
-        "whatWeDoCard": {
+        "whatWeDoCards": {
             "displayName": "whatWeDoCard",
             "type": "component",
             "repeatable": true,

@@ -2,15 +2,16 @@
   "collectionName": "components_home_sub_component_social_icons",
   "info": {
     "displayName": "socialIcons",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "socialIconType": {
+    "iconType": {
       "type": "string",
       "required": true
     },
-    "socialIconLink": {
+    "link": {
       "type": "string",
       "required": true
     }

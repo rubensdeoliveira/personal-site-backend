@@ -13,7 +13,7 @@
             "component": "home-sub-component.section-header",
             "required": true
         },
-        "countComponent": {
+        "countItems": {
             "displayName": "countComponent",
             "type": "component",
             "repeatable": true,

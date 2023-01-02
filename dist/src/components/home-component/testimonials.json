@@ -13,7 +13,7 @@
             "component": "home-sub-component.section-header",
             "required": true
         },
-        "testimonialCard": {
+        "testimonialCards": {
             "displayName": "testimonialCard",
             "type": "component",
             "repeatable": true,

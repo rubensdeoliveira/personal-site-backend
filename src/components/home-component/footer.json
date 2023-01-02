@@ -11,14 +11,14 @@
       "type": "string",
       "required": true
     },
-    "footerInfo": {
+    "footerInfoTextLinks": {
       "displayName": "footerInfo",
       "type": "component",
       "repeatable": true,
       "component": "home-sub-component.footer-info",
       "required": true
     },
-    "socialIcons": {
+    "footerInfoIconLinks": {
       "displayName": "socialIcons",
       "type": "component",
       "repeatable": true,

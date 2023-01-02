@@ -13,14 +13,14 @@
             "component": "home-sub-component.section-header",
             "required": true
         },
-        "experienceCard": {
+        "experienceCards": {
             "displayName": "experienceCard",
             "type": "component",
             "repeatable": true,
             "component": "home-sub-component.experience-card",
             "required": true
         },
-        "experienceBar": {
+        "experienceBars": {
             "displayName": "experienceBar",
             "type": "component",
             "repeatable": true,
