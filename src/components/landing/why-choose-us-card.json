@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_landing_why_choose_us_cards",
+  "info": {
+    "displayName": "WhyChooseUsCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

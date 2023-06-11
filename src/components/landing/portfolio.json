@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_landing_portfolios",
+  "info": {
+    "displayName": "Portfolio"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "portfolioCards": {
+      "displayName": "PortfolioCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.portfolio-card",
+      "required": true
+    }
+  }
+}

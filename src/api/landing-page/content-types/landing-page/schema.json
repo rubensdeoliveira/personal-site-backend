@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "LandingPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.hero",
+      "required": true
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.footer"
+    },
+    "about": {
+      "displayName": "About",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.about",
+      "required": true
+    },
+    "services": {
+      "displayName": "Services",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.services",
+      "required": true
+    },
+    "whyChooseUs": {
+      "displayName": "WhyChooseUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.why-choose-us",
+      "required": true
+    },
+    "portfolio": {
+      "displayName": "Portfolio",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.portfolio",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_landing_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "mainButton": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.button",
+      "required": true
+    },
+    "secondaryButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.button",
+      "required": false
+    },
+    "highlightNumbers": {
+      "displayName": "HighlightNumbers",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.highlight-numbers"
+    }
+  }
+}

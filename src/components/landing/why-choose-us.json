@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_landing_why_chooseuses",
+  "info": {
+    "displayName": "WhyChooseUs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "whyChooseUsCards": {
+      "displayName": "WhyChooseUsCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.why-choose-us-card",
+      "required": true
+    }
+  }
+}

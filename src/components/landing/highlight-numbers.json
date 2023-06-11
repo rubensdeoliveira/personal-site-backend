@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_landing_highlight_numbers",
+  "info": {
+    "displayName": "HighlightNumbers"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

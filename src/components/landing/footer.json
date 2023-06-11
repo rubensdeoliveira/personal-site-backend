@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_landing_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "whatsLink": {
+      "type": "string",
+      "required": true
+    },
+    "instagramLink": {
+      "type": "string",
+      "required": true
+    },
+    "linkedinLink": {
+      "type": "string",
+      "required": true
+    },
+    "copyrightName": {
+      "type": "string",
+      "required": true
+    },
+    "copyrightText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
